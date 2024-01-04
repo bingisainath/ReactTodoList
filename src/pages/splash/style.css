@@ -1,0 +1,12 @@
+.container {
+}
+
+.headerText {
+  display: flex;
+  justify-content: center;
+}
+
+.QuestionText {
+  display: flex;
+  justify-content: center;
+}

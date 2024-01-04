@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import Login from "../loginForm";
-import SignUp from "../signUpform";
+import Login from "../Authentication/loginForm";
+import SignUp from "../Authentication/signUpform";
+
+import "./style.css";
 
 export default function Index() {
   const [isLogin, setIsLogin] = useState(true);
@@ -12,22 +14,22 @@ export default function Index() {
   };
 
   return (
-    <div>
-      <div>Welcome to TodoList</div>
-      <div>{isLogin ? <Login /> : <SignUp />}</div>
-      <div>
+    <div className="container">
+      {/* <h1 className="headerText">Welcome to TodoList</h1> */}
+      <div className="inputContainer"><Login /></div>
+      {/* <div className="QuestionText">
         {isLogin ? (
-          <div>
-            <p>Don't have a account </p>
+          <span className="buttonContainer">
+            <span>Don't have a account </span>
             <button onClick={handleLoginRegister}>Register</button>
-          </div>
+          </span>
         ) : (
           <div>
-            <p>Already a user</p>
+            <span>Already a user</span>
             <button onClick={handleLoginRegister}>Login</button>
           </div>
         )}
-      </div>
+      </div> */}
     </div>
   );
 }
