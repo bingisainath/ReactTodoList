@@ -73,6 +73,7 @@ import { Routes, Route, Link, useNavigate, Navigate } from "react-router-dom";
 import Splash from "../src/pages/splash";
 import Home from "../src/pages/home";
 import Support from "../src/pages/support";
+import NavBar from "./components/NavBar";
 
 function App() {
   // const [loggedIn, setLoggedIn] = useState(false);

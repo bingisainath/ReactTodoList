@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Link, Navigate } from "react-router-dom";
 
-import NavBar from "../../components/NavBar";
-
 export default function Index() {
   const [loginstate, setloginState] = useState(false);
 
@@ -16,7 +14,7 @@ export default function Index() {
 
   return (
     <div>
-      {/* <nav>
+      <nav>
         <ul>
           <li>
             <Link to="/support">support</Link>
@@ -25,9 +23,7 @@ export default function Index() {
             <button onClick={logoutHandle}>logout</button>
           </li>
         </ul>
-      </nav> */}
-      <NavBar />
-      <h1>Home</h1>
+      </nav>
     </div>
   );
 }
