@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, Navigate } from "react-router-dom";
 
+import './style.css'
 import NavBar from "../../components/NavBar";
 
 export default function Index() {

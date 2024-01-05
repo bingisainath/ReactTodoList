@@ -53,7 +53,7 @@ const Index = () => {
           <button>Sign In</button>
         </div>
       </div>
-      <div className="toggle-container">
+      {/* <div className="toggle-container">
         <div className="toggle">
           <div
             className={`toggle-panel toggle-left ${isSignIn ? "active" : ""}`}
@@ -78,7 +78,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

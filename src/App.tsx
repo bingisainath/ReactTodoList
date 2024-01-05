@@ -70,7 +70,7 @@ import { Routes, Route, Link, useNavigate, Navigate } from "react-router-dom";
 
 // import Login from "../src/pages/loginForm";
 // import SignUp from "../src/pages/signUpform";
-import Splash from "../src/pages/splash";
+import Splash from "../src/pages/Authentication/splash";
 import Home from "../src/pages/home";
 import Support from "../src/pages/support";
 import NavBar from "./components/NavBar";
